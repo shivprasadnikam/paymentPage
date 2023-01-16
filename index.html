@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaymentPage</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 style="text-align: center;">Payment Page</h1>  
+    <h2>Contact Information</h2>
+    <form>
+        <label>Name: <input type="text" placeholder="Enter your name" required></label>
+        <br>
+        <br>
+        <label>Mobile Number: <input type="number" placeholder="Enter your mobile number" required></label>
+        <br>
+        <br>
+        <label>Male <input type="radio" name="Gender"></label>
+        <label>Female <input type="radio" name="Gender"></label>
+        <br>
+        <br>
+        <label>Address <textarea></textarea></label>
+        <br><br>
+        <label>email <input type="email" placeholder="abc@gmail.com"></label>
+        <br><br>
+        <label>password <input type="password"></label>
+        <br><br>
+        <label>pincode <input type="number"></label>
+        <br><br>
+        <h2>Payment Information</h2>
+        <br>
+        <label>Card Type: 
+            <select>
+                <option value="--Select type of card">--Select type of card</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Visa">Visa</option>
+                <option value="Amex">Amex</option>
+            </select>
+        </label>
+        <br><br>
+        <label>Card Number <input type="number" placeholder="Card Number" required></label>
+        <br><br>
+        <label>Expiry date: <input type="date"></label>
+        <br><br>
+        <label>CVV:<input type="password"></label>
+        <br><br>
+        <button>PayNow</button>
+
+
+    </form>
+</body>
+</html>
